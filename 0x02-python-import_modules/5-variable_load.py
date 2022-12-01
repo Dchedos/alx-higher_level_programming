@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import hidden_4
+    from variable_load_5 import a
 
-    name = dir(hidden_4)
-    for names in name:
-        if names[:2] != "__":
-            print(names)
+    print(a)
